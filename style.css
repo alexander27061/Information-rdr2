@@ -1,0 +1,109 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 20%;
+}
+
+header {
+    background-image: url("images/header_fon.png");
+    width: 100%;
+    padding-top: 30px;
+    background-size: cover;
+    height: 700px;
+    background-position: bottom;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 700;
+    gap: 40px;
+}
+
+.header_top>img {
+    width: 15%;
+}
+
+.history {
+    color: red;
+}
+
+.novosti {
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    gap: 40px;
+}
+
+.h1 {
+    font-size: 60px;
+    margin-bottom: 150px;
+}
+
+.novosti_h1 {
+    font-size: 50px;
+}
+
+.history_h1 {
+    font-size: 50px;
+}
+
+.what_game {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.what_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+.what_left {
+    width: 40%;
+}
+
+.logo_rdr2 {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.what_left>p {
+    font-size: 24px;
+}
+
+aside {
+    background: #f0f0f0;
+    padding: 10px;
+    width: 200px;
+    float: right;
+    border-radius: 30px;
+}
+
